@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-image: url("jad7.jpeg");
+}
+
+#content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.title {
+    margin-top: 0;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.alan-image {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5)
+}
+
+.category-link {
+    position: absolute;
+    bottom: 10px; /* Au lieu de top */
+    right: 10px; /* Au lieu de left */
+    text-decoration: none;
+    color: #fff;
+}
+
+.round-image {
+    width: 50px; /* ajustez la taille du rond selon vos besoins */
+    height: 50px;
+    border-radius: 50%;
+    background-color: #3498db;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.round-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#zahr {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    width: 70px; /* ajustez la taille du rond selon vos besoins */
+    height: 50px;
+    background-color: #3498db;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#zahr img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
